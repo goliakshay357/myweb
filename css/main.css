@@ -200,11 +200,6 @@
 
 
 
-   /* portfolio */
-  .portfolio {
-      background-color: rgba(0, 0, 0, 0.192) !important;
-  }
-
    .btn-dark {
        background-color: rgba(20, 20, 20, 0.856);
 
@@ -255,3 +250,82 @@
    .wrap .icons i:hover{
     color:yellow;
 }
+
+
+
+/* portfolio */
+.portfolio h1{
+    font-family: 'Arvo', serif;
+    color: white;
+}
+
+.portfolio{
+       
+    background-image: url('../images/port2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: centerSS;
+    top: 0px;
+    opacity: 100;
+    margin: 0%;
+    padding: 40px;
+}
+
+.overlayport{
+    position: absolute;
+    min-height: 594px;
+    min-width: 100%;
+    left: 0;
+    top: 100%;
+    background: rgba(10, 10, 10, 0.856);
+
+   }
+
+
+   /* blog */
+
+   .blog{
+       
+    background-image: url('../images/port2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: centerSS;
+    top: 0px;
+    opacity: 100;
+    margin: 0%;
+    padding: 40px;
+}
+
+.overlayblog{
+    position: absolute;
+    min-height: 594px;
+    min-width: 100%;
+    left: 0;
+    top: 100%;
+    background: rgba(10, 10, 10, 0.856);
+
+   }
+
+
+   /* Contact form */
+   .contact-form{
+       
+    background-image: url('../images/port2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: centerSS;
+    top: 0px;
+    opacity: 100;
+    margin: 0%;
+    padding: 40px;
+}
+
+.overlaycontact{
+    position: absolute;
+    min-height: 594px;
+    min-width: 100%;
+    left: 0;
+    top: 100%;
+    background: rgba(10, 10, 10, 0.856);
+
+   }
