@@ -59,7 +59,7 @@
     top: 40%;
     right:39%;
     margin: auto;
-    padding: 0em;
+    padding: 2em;
 }
 
 .description h1{
@@ -218,18 +218,18 @@
 
    #about{
        
-       background-image: url('../images/graffiti.jpg');
+       background-image: url('../images/graffiti2.jpg');
        background-attachment: fixed;
        background-size: cover;
        background-position: centerSS;
        top: 130px;
        opacity: 100;
        margin: 0%;
-       padding: 30px;
+       padding: 40px;
    }
     .overlayabout{
     position: absolute;
-    min-height: 63.5%;
+    min-height: 594px;
     min-width: 100%;
     left: 0;
     top: 100%;
@@ -243,7 +243,7 @@
    }
    .wrap{
     position: absolute;   
-    top:70%;
+    top:224px;
    }
 
    .wrap .icons i{
