@@ -42,6 +42,7 @@
     background-size: cover;
     background-position: centerSS;
     top: 130px;
+  
    }
 
    /* gives the black colour to your image */
@@ -255,7 +256,7 @@
 
 /* portfolio */
 .portfolio h1{
-    font-family: 'Arvo', serif;
+    font-family: 'Pacifico', cursive;
     color: white;
 }
 
@@ -298,7 +299,7 @@
 
 .overlayblog{
     position: absolute;
-    min-height: 594px;
+    min-height: 336px;
     min-width: 100%;
     left: 0;
     top: 100%;
@@ -320,12 +321,12 @@
     padding: 40px;
 }
 
-.overlaycontact{
+/* .overlaycontact{
     position: absolute;
-    min-height: 594px;
+    min-height: 200px;
     min-width: 100%;
     left: 0;
     top: 100%;
     background: rgba(10, 10, 10, 0.856);
 
-   }
+   } */

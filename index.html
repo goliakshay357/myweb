@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -20,7 +20,20 @@
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <!-- animation Scripts -->
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+    <script src="js/vendor/modernizr.min.js"></script>
+    <!-- <script src="js/jquery.min.js" ></script> -->
+    <script src="js/vendor/TweenMax.min.js"></script>
+    <script src="js/vendor/ScrollToPlugin.min.js" ></script>
+    <script src="js/vendor/EasePack.min.js"></script>
+    <script src="js/animate-scroll.js"></script>
+    <script src="js/EaselPlugin.min.js"></script>
+  <script type="text/javascript"> $(document).animateScroll();  </script>
+    <!-- for initialize the script while scrolling -->
+
   </head>
 
 
@@ -60,7 +73,7 @@
   <div class="overlay"></div>
    <div class="container"> 
          <div class="description ">
-               <h1>    Hello, Welcome To My Official Website <br>
+               <h1 data-animate-scroll='{"y":"50", "duration": "1.75","scaleX": "0","scaleY": "0"}'>    Hello, Welcome To My Official Website <br>
                
              <button class="btn btn-outline-secondary btn-lg ">See more</button>   </h1>  
             </div> 
@@ -78,13 +91,13 @@
       <div class="row">
             <!-- left side!! -->
               <div class="col-lg-4 col-md-4 col-sm-12" style="text-align:center">
-               <img src="images/IMG_20190214_213902_612.jpg" class="img-fluid">
+               <img src="images/IMG_20190330_232936_923.jpg" class="img-fluid">
                <h5 style="color:white; font-weight:200; padding-top:2px; ">Web Developer</h5>
              </div>
        
              <!-- Right side -->
              <div class="col-lg-8 col-md-8 col-sm-12 desc">
-                <h1 class="abouth1">About Me</h1>
+                <h1 class="abouth1" data-animate-scroll='{"scaleX": "2","scaleY": "2", "alpha": "0", "duration": ".5"}'>About Me</h1>
                 <br>
               <h3>Goli Akshay Sujith</h3>
               <p>
@@ -101,7 +114,8 @@
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-github-square"></i></a>
                 <a href="#"><i class="fab fa-quora"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-blogger"></i></a>
+                <a href="https://www.instagram.com/akshay._.sujith/?hl=en"><i class="fab fa-instagram"></i></a>
                </div>
                </div>
               </div>
@@ -135,7 +149,7 @@
 <div class="blog" style="margin:0px;">
   <div class="overlayblog"></div>
   <div class="container">
-  <h1 class="text-center" style="margin:0px; padding:20px;padding-bottom: 40px;    font-family: 'Arvo', serif;
+  <h1 class="text-center" style="margin:0px; padding:20px;padding-bottom: 40px;    font-family: 'Pacifico', cursive;
   color: white;">Blog</h1>
    <div class="row">
     <div class="col-md-4 col-lg-4 col-sm-12">
