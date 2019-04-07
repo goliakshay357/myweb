@@ -1,3 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
 .navbar{ 
     background:black;
 }
@@ -37,9 +43,9 @@
 
     /*header style*/
 .header{
-    background-image: url('../images/whitebackground.jpg');
+    background-image: url('../images/cartoon1.jpg');
     background-attachment: fixed;
-    background-size: cover;
+    background-size:2100px;
     background-position: centerSS;
     top: 130px;
   
@@ -52,7 +58,7 @@
  min-width: 100%;
  left: 0;
  top: 0;
- background: rgba(10, 10, 10, 0.856);
+ background: rgba(10, 10, 10, 0.267);
 }
 
 .description{
@@ -61,13 +67,14 @@
     right:39%;
     margin: auto;
     padding: 2em;
+    /* text-align: center; */
+
 }
 
 .description h1{
- color:#F97300 ;
+ color:rgb(0, 0, 0) ;
  line-break: 2;
  font-size: 60px;
-
 }
 
 /* line-height is for spacing between texts!! */
@@ -102,9 +109,9 @@
   
    }
    .about img{
-    height: 100%;
-       width: 90%;
-       border-radius: 50%
+       height: auto;
+       width: auto;
+       /* border-radius: 50% */
        
    }
    .about span{
@@ -214,7 +221,8 @@
 
    #about{
        
-       background-image: url('../images/graffiti2.jpg');
+       background-image: url('../images/about_ous.jpg');
+       background-color: #fff;
        background-attachment: fixed;
        background-size: cover;
        background-position: centerSS;
@@ -234,7 +242,7 @@
 
    .about h1{
     font-family: 'Arvo', serif;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-left: 10px;
    }
    .wrap{
@@ -380,3 +388,6 @@
     animation-duration: 1s;
     animation-timing-function: steps(1, end);
   }  
+
+
+
