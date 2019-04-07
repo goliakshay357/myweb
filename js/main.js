@@ -4,9 +4,9 @@ $(document).ready(function(){
     $('.header').height($(window).height());
    })
 
-$(document).ready(function(){
-    $('.overlayabout').height($('.about').height());
-   })
+// $(document).ready(function(){
+//     $('.overlayabout').height($('.about').height());
+//    })
 
       
 $(".navbar a").click(function(){
