@@ -51,13 +51,13 @@
       </li>
 
       <li class="nav-item"> 
-          <a class="nav-link " data-value="blog" href="#">Blog</a>
+          <a class="nav-link " data-value="blog" href="#blog">Blog</a>
       </li>   
       <!-- <li class="nav-item">  
          <a class="nav-link " data-value="myprojects" href="#">My Projects</a>
       </li>   -->
       <li class="nav-item"> 
-         <a class="nav-link " data-value="contact" href="#">Contact</a>
+         <a class="nav-link " data-value="contact" href="#contact-form">Contact</a>
       </li> 
    </ul> 
    </div></nav>
@@ -87,13 +87,13 @@
     <div class="row">
       
       <div class="col-lg-4 col-md-4 col-sm-12">
-        <img src="images/portfolio/port13.png" class="img-fluid">
+        <img src="images/fourier series.gif" class="img-fluid" style="border-radius: 5%;"">
       </div>
       <div class="col-lg-4 col-md-4 col-sm-12">
-        <img src="images/portfolio/port1.png" class="img-fluid">
+        <img src="images/tetris.gif" class="img-fluid" style="border-radius: 5%;">
       </div>
       <div class="col-lg-4 col-md-4 col-sm-12">
-       <img src="images/portfolio/port6.png" class="img-fluid">
+       <img src="images/car.gif" class="img-fluid" style="border-radius: 5%;">
       </div>
   
     </div>
@@ -101,7 +101,7 @@
   </div>
   
 <!-- Posts section -->
-<div class="blog" style="margin:0px;">
+<div class="blog" id="blog" style="margin:0px;">
   <!-- <div class="overlayblog"></div> -->
   <div class="container">
   <h1 class="text-center" style="margin:0px; padding:20px;padding-bottom: 40px;    font-family: 'Pacifico', cursive;
@@ -175,12 +175,17 @@
   <div class="row">
         <!-- left side!! -->
           <div class="col-lg-4 col-md-4 col-sm-12" style="text-align:center; padding: 0px;">
-           <img src="images/newabout.png"  style="height: 100%; width: 100%">
-           <!-- <h5 style="color:white; font-weight:200; padding-top:2px; color: black;">Web Developer</h5> -->
-         </div>
+           <div class="content1" style="height: 520px; position: relative;">
+            <div class="image">
+              <img src="images/newabout.png"  style="height: 900px;width: 700px;position: absolute;bottom: 0px;left: 0px;top: -200;top: -150;" >
+            </div>
+            <!-- <h5 style="color:white; font-weight:200; padding-top:2px; color: black;">Web Developer</h5> -->
+           </div>
+          </div>
    
          <!-- Right side -->
          <div class="col-lg-8 col-md-8 col-sm-12 desc">
+           <div class="content2" style="height: 520px; position: relative;">
             <h1 data-animate-scroll='{"scaleX": "2","scaleY": "2", "alpha": "0", "duration": ".5"}'><strong>About Me</strong></h1>
             <br>
           <h3>Goli Akshay Sujith</h3>
@@ -202,14 +207,15 @@
             <a href="https://www.instagram.com/akshay._.sujith/?hl=en"><i class="fab fa-instagram"></i></a>
            </div>
            </div>
-          </div>
+           </div>
+         </div>
      </div>
    
 </section>
 
 
  <!-- Contact form -->
-<div class="contact-form">
+<div class="contact-form" id="contact-form">
   <div class="overlaycontact"></div>
   <div class="container">
    <form>
