@@ -58,7 +58,7 @@ header{
     top: 0;
     width:100%;
     height: 100vh;
-    background: url(images/test.gif);
+    background: url(images/test2.gif);
     background-size: cover;
 } 
 
@@ -86,8 +86,9 @@ header{
     font-size: 4rem;
 }
 
-.type{
-    color:yellow
+.typewelcome{
+    color:yellow;
+    transition: 1;
 }
 
 .sec1 {
@@ -233,8 +234,3 @@ header{
     z-index: 1000;
 }
 
-.headerText h3{
-    text-align: center;
-    color: white;
-    padding-bottom: 20px;
-}
