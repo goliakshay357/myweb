@@ -10,6 +10,7 @@
     <!--        Bootstrap link!-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/typeit@VERSION_NUMBER/dist/typeit.min.js" />
@@ -18,6 +19,7 @@
 
 </head>
 <!-- added data-spy -->
+
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -88,8 +90,8 @@
                     <span>I'm Ak_</span>
                     <span>I'm A_</span>
                     <span>I'm A_</span>
-                    <span>I'm  _</span>
-                    <span>I'm  _</span>
+                    <span>I'm _</span>
+                    <span>I'm _</span>
                     <span>I'm C_</span>
                     <span>I'm C_</span>
                     <span>I'm Cr_</span>
@@ -166,8 +168,8 @@
                     <span>I'm _</span>
                     <span>I'm _</span>
                     <span>I'm _</span>
-                    
-                        
+
+
 
 
 
@@ -181,14 +183,14 @@
             <div class="row">
                 <div class="offset-sm-2 col-sm-8">
                     <div class="headerText">
-                        <h1>My projects</h1>
+                        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">My projects</h1>
                     </div>
 
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="placeBox">
+                    <div class="placeBox"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
                         <div class="imgBx">
                             <!-- img-fluid -->
                             <img src="images/tetris.png" class="img-fluid" alt="Tetis img">
@@ -199,7 +201,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="placeBox">
+                    <div class="placeBox"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
                         <div class="imgBx">
                             <!-- img-fluid -->
                             <img src="images/autocar.png" class="img-fluid" alt="Automation car img">
@@ -210,7 +212,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="placeBox">
+                    <div class="placeBox"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
                         <div class="imgBx">
                             <!-- img-fluid -->
                             <img src="images/smartdustbin.png" class="img-fluid" alt="Tetis img">
@@ -229,14 +231,14 @@
                 <div class="offset-sm-2 col-sm-8">
                     <!-- headerText -->
                     <div class="headerText text-center">
-                        <h1>Blog</h1>
+                        <h1  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">Blog</h1>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6">
                     <!-- blogpost -->
-                    <div class="blogpost">
+                    <div class="blogpost"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
                         <!-- imgBx and img-fluid -->
                         <div class="imgBx">
                             <img src="images/yellow.png" alt="Yellow Backgorund class=" img-fluid">
@@ -252,7 +254,7 @@
                 </div>
                 <div class="col-sm-6">
                     <!-- blogpost -->
-                    <div class="blogpost">
+                    <div class="blogpost"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
                         <!-- imgBx and img-fluid -->
                         <div class="imgBx">
                             <img src="images/yellow.png" alt="Yellow Backgorund class=" img-fluid">
@@ -268,7 +270,7 @@
                 </div>
                 <div class="col-sm-6">
                     <!-- blogpost -->
-                    <div class="blogpost">
+                    <div class="blogpost"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
                         <!-- imgBx and img-fluid -->
                         <div class="imgBx">
                             <img src="images/yellow.png" alt="Yellow Backgorund class=" img-fluid">
@@ -292,8 +294,8 @@
                 <div class="col-sm-12">
                     <!-- headerText -->
                     <div class="headerText text-center">
-                        <h1>Contact</h2>
-                            <h3>Drop a message</h3>
+                        <h1  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Contact</h2>
+                            <h3  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Drop a message</h3>
                     </div>
                 </div>
             </div>
@@ -331,6 +333,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
     <script type="text/javascript">
         // this is to move navbar along the scroll
         $(document).scroll(function () {
