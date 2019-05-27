@@ -3,6 +3,10 @@
     outline: none !important;
 }
 
+*{
+    scroll-behavior: smooth; 
+}
+
 body{
     font-family: 'Poppins', sans-serif;
     }
@@ -22,7 +26,7 @@ header{
     background-color: transparent !important;
 }
 
-.navbar.scrolled{ 
+.navbar.scrolled{  
     background: #000 !important;
     transition: 0.5s;
 }
@@ -33,6 +37,9 @@ header{
 
 }
 
+.navbar-light .navbar-nav .active > .nav-link:hover{
+color: #000;
+}
 .navbar-light .navbar-nav .nav-link {
     color: rgba(255,255,255);
 }
@@ -58,7 +65,7 @@ header{
     top: 0;
     width:100%;
     height: 100vh;
-    background: url(images/test2.gif);
+    background: url(images/test.gif);
     background-size: cover;
 } 
 
@@ -234,3 +241,59 @@ header{
     z-index: 1000;
 }
 
+.contentBox1{
+    position: relative;
+    transform: translateY(40%);
+    z-index: 10;
+}
+.contentBox1 h2{
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    height: 50px;
+        /* to hide other parts */
+        overflow: hidden;
+}
+
+.contentBox1 h2 span{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    transition: 2s;
+}
+
+.contentBox1 h2 span{
+    animation: shuffle steps(106) 3s infinite;
+    transition: 2s;
+}
+@keyframes shuffle
+{
+0%
+{
+    transform: translateY(0px);
+    /* transition: 300ms; */
+}
+100%
+{
+    transform: translateY(-5300px)
+    /* transition: 300ms; */
+}
+}
+
+.contentBox1 h3{
+margin: 0px;
+color: #1DB954;
+font-weight: 700;
+animation:blinkingText 0.8s infinite;
+}
+
+@keyframes blinkingText{
+    0%{     color: #1DB954;;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #1DB954;;    }
+}
