@@ -195,8 +195,8 @@ color: #000;
 
 .btnD2, .btnD2:hover
 {
-    background: #262626;
-    color: #ffffff;
+    background: #ffffff;
+    color: black;
     border-radius: 30px;
     padding: 10px 20px;
     float: right;
@@ -339,4 +339,57 @@ animation:blinkingText 0.8s infinite;
         color: rgba(0, 0, 0, 0.5);
         border-color: rgba(0,0,0,.1);
     } */
+}
+
+
+.headerText .dropMessage{
+    color: #FFE400;
+    animation:colorText 3s infinite;
+    font-size: 20px;
+}
+
+.headerTexts:hover{
+    color: #F13C20;
+    transition: 1s;
+}
+
+.btn1 {
+    display: inline-block;
+    font-weight: 600;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: white;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .80rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn1:hover{
+    background-color: #FFE400;
+    border-radius: 0px;
+    transition: 0.3s;
+}
+
+.placeBox .imgBx {
+    width: 100%;
+
+
+.placeBox .content h3 {
+    position: relative;
+    margin: 0;
+    padding: 10px;
+    background: rgba(0,0,0,1);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
 }
