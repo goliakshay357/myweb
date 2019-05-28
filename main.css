@@ -339,6 +339,27 @@ animation:blinkingText 0.8s infinite;
         color: rgba(0, 0, 0, 0.5);
         border-color: rgba(0,0,0,.1);
     } */
+    .contentBox1 h2 {
+        color: #ffffff;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        height: 50px;
+        overflow: hidden;
+        font-size: 30px;
+    }
+
+    .headerText h1 {
+        text-align: center;
+        color: white;
+        padding-bottom: 0px;
+        font-size:30px;
+    }
+    .contact label {
+        color: #ffffff;
+        font-size: 1rem;
+    }
+
 }
 
 
@@ -350,7 +371,7 @@ animation:blinkingText 0.8s infinite;
 
 .headerTexts:hover{
     color: #F13C20;
-    transition: 1s;
+    transition: 3s;
 }
 
 .btn1 {
@@ -374,13 +395,13 @@ animation:blinkingText 0.8s infinite;
 
 .btn1:hover{
     background-color: #FFE400;
-    border-radius: 0px;
-    transition: 0.3s;
+    border-radius: 0.80rem;
+    transition: 1s;
 }
 
 .placeBox .imgBx {
     width: 100%;
-
+}
 
 .placeBox .content h3 {
     position: relative;
@@ -393,3 +414,4 @@ animation:blinkingText 0.8s infinite;
     width: 100%;
     text-align: center;
 }
+
