@@ -1,0 +1,105 @@
+.aboutme1{
+    padding-top: 70px;
+    background-color: black; 
+    .fitimage{
+        width: 100%;
+    }
+    .logotext{
+        font-family: 'Poppins', sans-serif;
+        padding-bottom: 30px;
+        color: white;
+        .color1{
+            font-weight: 600;
+            color: rgb(209, 88, 141);
+        }
+    }
+
+    .color2{
+        color: #06C5F8;
+        margin-left: 20px;
+    }
+    // .temp1{
+    //     position: absolute;
+    //     top: 80px;
+    // }
+        .temp1{
+            margin-top: 80px;
+            margin-left: 20px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 17px;
+        }
+
+    // .temp{
+    //     // very instresting check this!!!
+    //     position: absolute;
+    //     top: 210px;
+
+    // }
+        .temp{
+            h1{
+                margin: 40px;
+
+            }
+        }
+
+    // .socialmedia{
+    //     position: absolute;
+    //     top: 650px;
+    // }
+    .socialmedia{
+        margin-left: 20px;
+        margin-top: 60px;
+
+        .socila{
+            margin: 10px;
+            font-size: 25px;
+        }
+        .socila:hover{
+            margin: 10px;
+            font-size: 25px;
+            color: white;
+        }
+    }
+    p{
+        color: white;
+    }
+        
+
+    .temp{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .placebox{
+            position: relative;
+            max-width: 150px;
+            width: 100px;
+            height: 100px;
+            background: #000000;
+            margin: 10px;
+            margin-top: 15px;
+            margin-bottom: 40px;
+            padding: 6px;
+            .imgbox{
+                width: 100%;
+                height: 100%;
+                position: relative;
+                p{
+                    text-align: center;
+                    
+                    // width: 100%;
+                    // padding: 10px;
+                    // overflow: hidden;
+
+                }
+                img{
+                    object-fit: cover;
+                    widows: 100%;
+                    height: 100%;
+                }
+            }
+
+        }
+    }
+
+    }
+

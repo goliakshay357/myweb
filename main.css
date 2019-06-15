@@ -313,6 +313,9 @@ animation:blinkingText 0.8s infinite;
 {
     .banner{
         background: url(images/backgroundbanner.gif);
+        background-repeat: no-repeat;
+        /* height: 500px; */
+
         /* background-size:;  */
     }
     .navbar-light .navbar-toggler {
@@ -414,4 +417,10 @@ animation:blinkingText 0.8s infinite;
     width: 100%;
     text-align: center;
 }
+
+.aboutme {
+    position: relative;
+    background: #000;
+}
+
 

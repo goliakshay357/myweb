@@ -1,0 +1,97 @@
+.aboutme1 {
+  padding-top: 70px;
+  background-color: black;
+}
+
+.aboutme1 .fitimage {
+  width: 100%;
+}
+
+.aboutme1 .logotext {
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.aboutme1 .logotext .color1 {
+  font-weight: 600;
+  color: #d1588d;
+}
+
+.aboutme1 .color2 {
+  color: #06C5F8;
+  margin-left: 20px;
+}
+
+.aboutme1 .temp1 {
+  margin-top: 80px;
+  margin-left: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+}
+
+.aboutme1 .temp h1 {
+  margin: 40px;
+}
+
+.aboutme1 .socialmedia {
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.aboutme1 .socialmedia .socila {
+  margin: 10px;
+  font-size: 25px;
+}
+
+.aboutme1 .socialmedia .socila:hover {
+  margin: 10px;
+  font-size: 25px;
+  color: white;
+}
+
+.aboutme1 p {
+  color: white;
+}
+
+.aboutme1 .temp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aboutme1 .temp .placebox {
+  position: relative;
+  max-width: 150px;
+  width: 100px;
+  height: 100px;
+  background: #000000;
+  margin: 10px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  padding: 6px;
+}
+
+.aboutme1 .temp .placebox .imgbox {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.aboutme1 .temp .placebox .imgbox p {
+  text-align: center;
+}
+
+.aboutme1 .temp .placebox .imgbox img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  widows: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=about.css.map */
