@@ -23,11 +23,30 @@
   margin-left: 20px;
 }
 
-.aboutme1 .temp1 {
+.aboutme1 h1 {
+  color: white;
+}
+
+.aboutme1 h1 span {
+  color: aquamarine;
+}
+
+.aboutme1 .temp2 {
   margin-top: 80px;
+  margin-left: 18px;
+}
+
+.aboutme1 .temp1 {
+  margin-top: 50px;
   margin-left: 20px;
   font-family: 'Poppins', sans-serif;
-  font-size: 17px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.aboutme1 .temp1 span {
+  font-weight: 600;
+  color: #ec5b73;
 }
 
 .aboutme1 .temp h1 {
@@ -36,18 +55,42 @@
 
 .aboutme1 .socialmedia {
   margin-left: 20px;
-  margin-top: 60px;
+  margin-top: 15px;
+}
+
+.aboutme1 .socialmedia .facebook:hover {
+  color: #3b5998;
+}
+
+.aboutme1 .socialmedia .insta:hover {
+  color: #af3c4f;
+}
+
+.aboutme1 .socialmedia .ln:hover {
+  color: #478cc5;
+}
+
+.aboutme1 .socialmedia .blog:hover {
+  color: #e26a07;
+}
+
+.aboutme1 .socialmedia .google:hover {
+  color: yellow;
 }
 
 .aboutme1 .socialmedia .socila {
   margin: 10px;
+  color: white;
   font-size: 25px;
 }
 
 .aboutme1 .socialmedia .socila:hover {
-  margin: 10px;
-  font-size: 25px;
-  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.aboutme1 .socialmedia .quora:hover {
+  color: #fb3958;
 }
 
 .aboutme1 p {

@@ -22,11 +22,26 @@
     //     position: absolute;
     //     top: 80px;
     // }
-        .temp1{
+        h1{
+            color: white;
+            span{
+                color: aquamarine;
+            }
+        }
+        .temp2{
             margin-top: 80px;
+            margin-left: 18px;
+        }
+        .temp1{
+            margin-top: 50px;
             margin-left: 20px;
             font-family: 'Poppins', sans-serif;
-            font-size: 17px;
+            font-size: 20px;
+            margin-bottom: 50px;
+            span{
+                font-weight: 600;
+                color:#ec5b73;
+            }
         }
 
     // .temp{
@@ -48,16 +63,36 @@
     // }
     .socialmedia{
         margin-left: 20px;
-        margin-top: 60px;
+        margin-top: 15px;
+        // height: 200px;
+        .facebook:hover{
+            color: 	#3b5998;
+        }
+        .insta:hover{
+            color: rgb(175, 60, 79);
+        }
+        .ln:hover{
+            color: rgb(71, 140, 197);
+        }
+        .blog:hover{
+            color: rgb(226, 106, 7);
+        }
+        .google:hover{
+         color: yellow;   
+        }
 
         .socila{
             margin: 10px;
+            color: white;
             font-size: 25px;
+
         }
         .socila:hover{
-            margin: 10px;
-            font-size: 25px;
-            color: white;
+            // font-size: 27px;
+            transition: 0.3s;
+        }
+        .quora:hover{
+            color: #fb3958;
         }
     }
     p{
