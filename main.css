@@ -315,7 +315,7 @@ animation:blinkingText 0.8s infinite;
         background: url(images/earth.jpg);
         background-repeat: no-repeat;
         /* height: 500px; */
-
+        background-color: black;
         /* background-size:;  */
     }
     .navbar-light .navbar-toggler {
